@@ -1,7 +1,5 @@
-import { albums } from "./albums";
-console.log(albums);
+console.log(albums)
 
-// showGalleryPhoto();
 function showGalleryPhoto() {
     const card = document.createElement('div');
     card.className = 'card relative';
@@ -21,3 +19,4 @@ function showGalleryPhoto() {
 
     document.querySelector('.gallary-container').append(card);
 }
+showGalleryPhoto();

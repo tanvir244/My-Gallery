@@ -1,4 +1,4 @@
-export const albums = [
+const albums = [
   {
     id: 1,
     img: 'https://images.unsplash.com/photo-1570201731886-7f21202470b7',
@@ -100,3 +100,5 @@ export const albums = [
     tag: 'Laguna Beach, United States'
   }
 ];
+
+
