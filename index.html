@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- DaisyUi & Tailwind -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.3/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <title>My Gallery</title>
+</head>
+
+<body>
+    <header class="w-[85%] mx-auto mt-6">
+        <div class="navbar bg-base-100">
+            <div class="flex-1">
+              <a href="" class="text-3xl font-bold text-rose-700">My Gallary</a>
+            </div>
+            <div class="flex-none gap-2">
+              <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+              </div>
+            </div>
+          </div>
+    </header>
+    <main class="w-[85%] mx-auto mt-6">
+        <div class="gallary-container grid grid-cols-3 gap-6 border-x-red-100">
+            <div class="card relative">
+                <img class="h-[251px]" src="https://images.unsplash.com/photo-1678729466198-a34ccca023c3" alt="">
+                <div class="intro">
+                    <p class="text-white font-semibold">Tag:</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
