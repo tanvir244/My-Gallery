@@ -1,6 +1,7 @@
 import { albums } from "./albums";
 console.log(albums);
 
+// showGalleryPhoto();
 function showGalleryPhoto() {
     const card = document.createElement('div');
     card.className = 'card relative';
