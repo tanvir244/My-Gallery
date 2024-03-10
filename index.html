@@ -16,18 +16,22 @@
     <header class="w-[85%] mx-auto mt-6">
         <div class="navbar bg-base-100">
             <div class="flex-1">
-              <a href="" class="text-3xl font-bold text-rose-700">My Gallary</a>
+              <a href="" class="text-4xl font-extrabold text-rose-700">My Gallary</a>
             </div>
             <div class="flex-none gap-2">
               <div class="form-control">
-                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                <input id="search-input" type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
               </div>
             </div>
           </div>
     </header>
-    <main class="w-[85%] mx-auto mt-6">
+    <main class="w-[85%] mx-auto mt-6 mb-10">
         <div class="gallary-container grid grid-cols-3 gap-6 border-x-red-100">
            
+        </div>
+        <div class="not-found text-center mt-44 space-y-6 hidden">
+            <h1 class="text-5xl font-bold">Album Not Found</h1>
+            <h1 class="text-6xl font-extrabold">404</h1>
         </div>
     </main>
     <script src="albums.js"></script>
